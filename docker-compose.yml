@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:16
+    container_name: zentech_tt_db
+    environment:
+      POSTGRES_USER: tt_user
+      POSTGRES_PASSWORD: tt_pass
+      POSTGRES_DB: tt_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - zentech_tt_pgdata:/var/lib/postgresql/data
+
+volumes:
+  zentech_tt_pgdata:
