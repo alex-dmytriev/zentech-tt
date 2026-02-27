@@ -1,0 +1,27 @@
+.header {
+  display: 'flex';
+  justify-content: 'space-between';
+  align-items: 'center';
+  padding: '16px 24px';
+  background: '#0f172a';
+  color: '#fff';
+
+}
+
+.logo {
+  color: '#fff';
+  text-decoration: 'none';
+  font-weight: 600;
+
+}
+
+.navigation {
+  display: flex;
+  gap: 12px;
+
+}
+
+.navLinks{
+  color: #fff;
+  
+}
